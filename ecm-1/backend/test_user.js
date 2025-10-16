@@ -9,8 +9,8 @@ mongoose.connect(process.env.MONGO_URI)
 async function testUser() {
   try {
     const newUser = new User({
-      firstname: "Thien",
-      lastname: "Nguyen Duy",
+      firstName: "Thien",
+      lastName: "Nguyen Duy",
       email: "NguyenDuyThien@gmail.com",
       password: "03032004",
       phone: "0906364541",
